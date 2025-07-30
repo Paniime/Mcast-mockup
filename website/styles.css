@@ -77,3 +77,51 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+
+.contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    font-family: Arial, sans-serif;
+}
+.contact-form h2 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.contact-form button {
+    background: #0078D7;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.contact-form button:hover {
+    background: #005a9e;
+}
+
+
+
+
