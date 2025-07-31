@@ -8,12 +8,12 @@ body, html {
 }
 
 header {
-  background-color: #004080;
+  background-color: #BD6A22;
   padding: 2rem 2rem; /* Increased padding for larger header */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px; /* Increased height for larger banner */
+  height: 126px; /* Increased height for larger banner */
   box-sizing: border-box;
 }
 
@@ -23,21 +23,22 @@ header {
 }
 
 .header-icon {
-  width: 60px;  /* Icon size */
-  height: 60px;
-  margin-right: 1rem;
+  width: 130px;  /* Icon size */
+  height: 20px;
+  margin-right: 2rem;
 }
 
 header h1 {
   color: #fff;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 2.5rem; /* Larger font size for main title */
-  margin: 0;
+  margin-left: 1rem;
 }
 
 nav a {
-  color: #cce6ff;
+  color: #53524c;
   text-decoration: none;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   font-weight: 600;
   transition: color 0.3s ease;
   font-size: 1.1rem;
@@ -49,7 +50,7 @@ nav a:hover {
 
 main {
   padding: 2rem;
-  max-width: 960px;
+  max-width: 967px;
   margin: auto;
 }
 
@@ -58,8 +59,8 @@ section {
 }
 
 h2 {
-  color: #004080;
-  border-bottom: 3px solid #004080;
+  color: #383838;
+  border-bottom: 3px solid #383838;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -69,11 +70,11 @@ p {
 }
 
 footer {
-  background-color: #004080;
+  background-color: #383838;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
 }
@@ -110,7 +111,7 @@ footer {
     min-height: 100px;
 }
 .contact-form button {
-    background: #0078D7;
+    background: #de9d2e;
     color: white;
     border: none;
     padding: 0.7rem 1.2rem;
@@ -119,7 +120,7 @@ footer {
     border-radius: 3px;
 }
 .contact-form button:hover {
-    background: #005a9e;
+    background: #de9d2e;
 }
 
 
