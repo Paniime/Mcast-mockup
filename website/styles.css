@@ -8,12 +8,12 @@ body, html {
 }
 
 header {
-  background-color: #BD6A22;
+  background-color: #E59825;
   padding: 2rem 2rem; /* Increased padding for larger header */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 126px; /* Increased height for larger banner */
+  height: 146px; /* Increased height for larger banner */
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ header {
 
 .header-icon {
   width: 130px;  /* Icon size */
-  height: 20px;
+  height: 130px;
   margin-right: 2rem;
 }
 
@@ -36,7 +36,7 @@ header h1 {
 }
 
 nav a {
-  color: #53524c;
+  color: #0b0e4a;
   text-decoration: none;
   margin-left: 1rem;
   font-weight: 600;
